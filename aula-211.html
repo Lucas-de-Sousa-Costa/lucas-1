@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+<style>
+	#letra {
+		color: aliceblue;
+		font-size: 30px;
+		font-weight bolder;
+			}
+			
+	body {
+		background-image: url(https://cdn.pixabay.com/photo/2017/10/26/19/45/red-2892235_1280.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: rgba(255, 255, 255, 0.5)
+		background-blen-mode: overlay;
+		}
+		button {
+			border: none;
+			outline: none;
+			padding: 10px 20px;
+			border-radius: 50px;
+			cursor: pointer;
+			margin: 5px;
+			background-color: #0bfc13;
+			color: rgb(247, 0, 0);
+			}
+			
+			button:houver {
+				background-color: #3e8e41;
+				}
+				</style>
+				<meta charset="UTF-8"/>
+				<meta http-equiv="X-ua-Compatible" content="IE-edge"/>
+				<meta name="viewport" content="width=device-width,
+				initial-scale=1.0"/>
+				<title>Vídeo e audio 2</title>
+				</head>
+				
+			<body bgcolor="red">
+			<marquee id="letra" direction="down" scrollamount="5" height="250" height="200" style="border: red 5px solid;" behavior="alternate" vspace="1">
+				<marquee behavior="alternate">Feliz Natal! </marquee>
+			</marquee>
+			<div>
+					<button onclick="document.getElementById('player').play()">Play</button>
+					<button onclick="document.getElementById('player').pause()">Pause</button>
+					<button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+					<button onclick="document.getElementById('player').volume-=0.1">Diminuir volumer</button>
+					</div>
+					<div id="btn">
+						<audio id="player" autoplay="autoplay" controls="control" loop>
+						<source src="Dezembro.mp3" type="audio/mp3" />
+						</audio>
+						</div>
+						</body>
+						</html>
+					
+					
+			
